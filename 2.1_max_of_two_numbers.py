@@ -20,3 +20,11 @@ if number1 > number2:
     print(number1, "is larger than", number2)
 else:
     print(number2, "is larger than", number1)
+
+# Alternate Solution
+print("Enter a number: ")
+number1 = int(input())
+print("Enter another number: ")
+number2 = int(input())
+# max function is used to find the max number of two numbers
+print(max(number1, number2))
